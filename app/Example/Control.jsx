@@ -1,7 +1,7 @@
 /** @jsx React.DOM */
 
 var React = require("react");
-var Actions = require("./Actions");
+var Actions = require("./Actions.coffee");
 
 var Example = React.createClass({
 	render: function() {
