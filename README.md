@@ -1,3 +1,6 @@
+## Change log
++ add support for cjsx
+
 # webpack/react-starter
 
 Starter template for react and webpack.
