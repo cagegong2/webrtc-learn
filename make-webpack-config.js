@@ -10,9 +10,9 @@ module.exports = function(options) {
 		// second: reactEntry("Second")
 	};
 	var loaders = {
-		"coffee": "coffee-redux-loader",
+		"coffee": "coffee-loader",
 		"jsx": options.hotComponents ? ["react-hot-loader", "jsx-loader?harmony"] : "jsx-loader",
-		"cjsx": options.hotComponents ? ["react-hot-loader", "coffee-redux-loader" ,"cjsx-loader?harmony"] : ["coffee-redux-loader", "cjsx-loader"],
+		"cjsx": options.hotComponents ? ["react-hot-loader", "coffee-loader" ,"cjsx-loader?harmony"] : ["coffee-loader", "cjsx-loader"],
 		"json": "json-loader",
 		"json5": "json5-loader",
 		"txt": "raw-loader",
