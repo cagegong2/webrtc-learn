@@ -34,7 +34,6 @@
     "react": "^0.11.1",
     "react-hot-loader": "^0.2.0",
     "react-proxy-loader": "^0.2.1",
-    "recordrtc": "^4.0.7",
     "reflux": "^0.1.5",
     "style-loader": "^0.6.4",
     "stylus-loader": "^0.4.0",
